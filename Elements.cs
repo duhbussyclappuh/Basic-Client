@@ -47,7 +47,7 @@ namespace Basic_Client
                             MelonLogger.Msg("Main UI Initialized");
                             CleanUpUI();
                             ForceCloner.Start();
-                            MessageBox.Show("This Client/Mod makes use of a slightly moddified version of Blaze's Button API");
+                            MessageBox.Show("This Client/Mod makes use of a slightly modified version of Blaze's Button API");
                             ModLoaded = true;
 
                             
@@ -58,6 +58,8 @@ namespace Basic_Client
             }
         }
     }
+
+    
     public class Elements
     {
         public const string Identifier = "Basic Mod";
